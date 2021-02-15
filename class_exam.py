@@ -10,7 +10,7 @@ for quizNum in range(35):
     # A Header In Every File
     quizFile.write(
         """
-Name:                 Class period: \n
+Name:                 Class period: 
 Date: \n
         """
     )
@@ -45,11 +45,10 @@ Date: \n
 
         quizFile.write(
             f"""
-{count + 1}. What is the capital of {state}? \n
-    a. {choices[0]}\n
-    b. {choices[1]}\n
+{count + 1}. What is the capital of {state}?
+    a. {choices[0]}
+    b. {choices[1]}
     c. {choices[2]}\n
-\n
             """
         )
         ansFile.write(f"{count + 1}. {capitals[state]}\n")
